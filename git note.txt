@@ -1,0 +1,18 @@
+ git config --global user.name "用户名" 
+git config --global user.email "邮箱地址"
+mkdir 目录名                     （ 创建空目录）
+cd 目录名                          （进入目录）
+git init                              （仓库初始化）     执行之后会在项目目录下创建“.git”的隐藏目录，之歌目录时Git创建的，不能删除，也不能随意更改其中的内容。
+git status                            (查看当前状态)
+git add 文件名                   （添加到缓存区） git add可以添加一个文件，也可添加多个文件
+git add 文件名
+git add 文件名1 文件名2 。。。
+git add.                               (添加当前目录到缓存区)
+git commit -m"注释内容"   （提交至版本库）
+git log                                 (查看版本)  (显示本质)
+git log --pretty=oneline     （显示简洁）
+git reset --hard 提交编号     （退回操作）
+git reflog                            （得到之前最新的commit id）
+git clone 线上仓库地址       （隆线上仓库到本地）
+git push                            （往线上仓库提交东西）（下班第一件事）
+git pull                                (拉取线上仓库）（工作时第一件事）
